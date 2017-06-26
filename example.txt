@@ -1,0 +1,21 @@
+//http://codekata.com/kata/kata13-counting-code-lines/
+//http://codekata.com/kata/kata13-counting-code-lines/
+
+//http://codekata.com/kata/kata13-counting-code-lines/
+#include <iostream> //http://codekata.com/kata/kata13-counting-code-lines/
+#include <fstream>
+#include <string>
+
+using namespace std;
+
+int main() {
+	ifstream myfile;
+	string line;
+	myfi/**/le.open("example.txt");
+
+	getline(cin, line);
+
+	cout << line;
+	myfile.close();
+	return 0;
+}
